@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+body {
+    font-family: Verdana, 'Quicksand';
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    background-position: center;
+    background-attachment: scroll;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+}
+
+h3 {
+   color: black;
+}
+
+.profile header {
+    text-align: center;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: rgb(109, 109, 109);
+    text-align: center;
+    font-weight: bold;
+}
+
+.featured-image {
+    width: 35%;
+    max-height: 400px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+ }
+
+.profile img {
+    width: 200px;
+ }
+
+.card {
+    box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.9);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+ }
+
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color: #fffdf7;
+    text-align: center;
+    color: black;
+ }
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+ }
+
+nav {
+    background-color: rgb(109, 109, 109);
+    padding: 5px;
+    position: sticky;
+    top: 0;
+ }
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+ }
+
+nav a:hover {
+   font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+ }
+
+ #content {
+   float: left;
+   width: 73%;
+}
+
+aside {
+   float: right;
+   width: 23%;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+@media screen and (max-width: 1000px) {
+   #content {
+       width: 100%;
+       padding: 0;
+   }
+   aside {
+      width: 100%;
+      margin-right: 200px;
+      padding: 0;
+   }
+}
+
+header {
+   display: inline;
+}
+
+.spasi {
+   margin-top: 60px;
+}
+
+#profil {
+  transition: all 1s;
+  width: 23%;
+  height: 23%;
+}
+
+#profil:hover {
+  
+  width: 27%;
+  height: 27%;
+  border-radius: 30px;
+}
+
+#tentang, #keterampilan, #tugas, #kesimpulan {
+   transition: all 1s;
+   width: 97%;
+   height: 97%;
+ }
+ 
+ #tentang:hover, #keterampilan:hover, #tugas:hover, #kesimpulan:hover {
+   
+   width: 102%;
+   height: 102%;
+   border-radius: 50px;
+   margin-right: 30px;
+ }
